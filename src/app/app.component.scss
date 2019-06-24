@@ -1,0 +1,16 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.avatar {
+  background: center/cover;
+  box-shadow: none;
+}
+
+.footer {
+  padding: 16px;
+  border-top: 1px solid rgba(black, .12);
+  p {
+    margin: 0 ;
+  }
+}
