@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>ルームを作成する</h1>
+
+  <form [formGroup]="form" (ngSubmit)="createRoom()">
+    <mat-form-field class="room-title">
+      <mat-label>ルーム名</mat-label>
+      <input formControlName="name" matInput autocomplete="off" required maxlength="20">
+      <mat-hint>最大20文字</mat-hint>
+    </mat-form-field>
+    <button mat-raised-button [disabled]="form.invalid" color="primary">作成</button>
+  </form>
+</div>
